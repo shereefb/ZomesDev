@@ -1,7 +1,7 @@
 /* ==============
  ========= Js Documentation =========
 
- Template Name: Revest
+ Template Name: Zomes
  Version: 1.0
  Description: Real Estate Investment For Everyone
  Author: Pixelaxis
