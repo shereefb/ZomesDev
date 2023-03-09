@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- #favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
     <!-- #title -->
     <title>Properties - Zomes Development</title>
     <!-- #keywords -->
@@ -20,22 +20,22 @@
     <!-- ==== css dependencies start ==== -->
 
     <!-- bootstrap five css -->
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css" />
     <!-- font awesome six css -->
-    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/all.min.css" />
     <!-- nice select css -->
-    <link rel="stylesheet" href="assets/vendor/nice-select/css/nice-select.css" />
+    <link rel="stylesheet" href="/assets/vendor/nice-select/css/nice-select.css" />
     <!-- magnific popup css -->
-    <link rel="stylesheet" href="assets/vendor/magnific-popup/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/vendor/magnific-popup/css/magnific-popup.css" />
     <!-- slick css -->
-    <link rel="stylesheet" href="assets/vendor/slick/css/slick.css" />
+    <link rel="stylesheet" href="/assets/vendor/slick/css/slick.css" />
     <!-- animate css -->
-    <link rel="stylesheet" href="assets/vendor/animate/animate.css" />
+    <link rel="stylesheet" href="/assets/vendor/animate/animate.css" />
 
     <!-- ==== css dependencies end ==== -->
 
     <!-- main css -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/scss/style.css" />
 
 </head>
 
@@ -45,7 +45,7 @@
     <nav class="navbar navbar-expand-xl">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" alt="Logo" class="logo" />
+                <img src="/assets/images/logo.png" alt="Logo" class="logo" />
             </a>
             <div class="navbar__out order-2 order-xl-3">
                 <div class="nav__group__btn">
@@ -66,22 +66,28 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="strmarket.html">STR Market</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="how-it-works.html">How it Works</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarHomeDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Locations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarHomeDropdown">
+                            <li><a class="dropdown-item" href="/locations/sedona.html">Sedona</a></li>
+                            <li><a class="dropdown-item" href="/locations/oakhurst.html">Oakhurst</a></li>
+                            <li><a class="dropdown-item" href="/locations/future-locations.html">Future Locations</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="properties.html">Properties</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarHomeDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarHomeDropdown">
-                            <li><a class="dropdown-item" href="index.html">Home</a></li>
-                            <li><a class="dropdown-item" href="index-two.html">Home Two</a></li>
-                            <li><a class="dropdown-item" href="index-three.html">Home Three</a></li>
-                        </ul>
-                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="/tour/index.html">Tour a Zome</a>
+                    </li>
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarPropertyDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -159,7 +165,7 @@
     <!-- ==== banner section end ==== -->
 
     <!-- ==== property filter start ==== -->
-    <div class="property__filter">
+    <!-- <div class="property__filter">
         <div class="container">
             <div class="property__filter__area">
                 <div class="row d-flex align-items-center">
@@ -198,15 +204,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ==== #property filter end ==== -->
 
     <!-- ==== properties grid section start ==== -->
     <section class="properties__filter section__space__bottom">
         <div class="container wow fadeInUp">
             <div class="properties__filter__wrapper">
-                <h6>Showing <span>505</span> properties</h6>
-                <div class="grid__wrapper">
+                <h6>Showing <span>3</span> available investments</h6>
+                <!-- <div class="grid__wrapper">
                     <select class="grid__select">
                         <option data-display="Sort By">Sort By</option>
                         <option value="grid">Date</option>
@@ -218,7 +224,7 @@
                     <a href="javascript:void(0)" class="grid__btn grid__list">
                         <i class="fa-solid fa-bars"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
             <div class="row property__grid__area__wrapper">
                 <div class="col-xl-4 col-md-6 property__grid__area__wrapper__inner">
@@ -227,8 +233,8 @@
                             <div class="property__grid__area__wrapper__inner__two">
                                 <div class="property__item__image column__space--secondary">
                                     <div class="img__effect">
-                                        <a href="property-details.html">
-                                            <img src="assets/images/property/los.png" alt="Los Angeles" />
+                                        <a href="/properties/circle.html">
+                                            <img src="assets/images/property/los.png" alt="Circle" />
                                         </a>
                                     </div>
                                 </div>
@@ -237,7 +243,7 @@
                                 <div class="property__item__content">
                                     <div class="item__head">
                                         <div class="item__head__left">
-                                            <h4>Los Angeles</h4>
+                                            <h4>Circle</h4>
                                             <p><i class="fa-solid fa-location-dot"></i> 8706 Herrick Ave, Los Angeles
                                             </p>
                                         </div>
@@ -579,7 +585,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row property__grid__area__wrapper mt-30">
+            <!-- <div class="row property__grid__area__wrapper mt-30">
                 <div class="col-xl-4 col-md-6 property__grid__area__wrapper__inner">
                     <div class="property__list__wrapper property__grid">
                         <div class="row d-flex align-items-center">
@@ -937,10 +943,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cta__btn">
+            </div> -->
+            <!-- <div class="cta__btn">
                 <a href="property-details.html" class="button button--effect">Load More</a>
-            </div>
+            </div> -->
         </div>
     </section>
     <!-- ==== properties grid section end ==== -->
