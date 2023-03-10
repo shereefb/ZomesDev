@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
+    <!-- #title -->
+    <title>Property Details - Zomes Development</title>
+    <!-- #keywords -->
+    <meta name="keywords" content="Real Estate, Investment, Properties, Rent" />
+    <!-- #description -->
+    <meta name="description" content="Real Estate Investment For Everyone" />
+    <!-- #author -->
+    <meta name="author" content="Pixelaxis" />
+
+    <!-- ==== css dependencies start ==== -->
+
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/all.min.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="/assets/vendor/nice-select/css/nice-select.css" />
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="/assets/vendor/magnific-popup/css/magnific-popup.css" />
+    <!-- slick css -->
+    <link rel="stylesheet" href="/assets/vendor/slick/css/slick.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="/assets/vendor/animate/animate.css" />
+
+    <!-- ==== css dependencies end ==== -->
+
+    <!-- main css -->
+    <link rel="stylesheet" href="/assets/scss/style.css" />
+
+</head>
+
+<body>
+    <!-- ==== header start ==== -->
+<header class="header">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/assets/images/logo.png" alt="Logo" class="logo" />
+            </a>
+            <div class="navbar__out order-2 order-xl-3">
+                <div class="nav__group__btn">
+                    <a href="/login.html" class="log d-none d-sm-block"> Log In </a>
+                    <a href="/tour/index.html" class="button button--effect d-none d-sm-block" target="_blank"> Zome Tour <i
+                            class="fa-solid fa-arrow-right-long"></i> </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNav"
+                    aria-controls="primaryNav" aria-expanded="false" aria-label="Toggle Primary Nav">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse order-3 order-xl-2" id="primaryNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/strmarket.html">STR Market</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/properties.html">Properties</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarHomeDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Locations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarHomeDropdown">
+                            <li><a class="dropdown-item" href="/locations/sedona.html">Sedona</a></li>
+                            <li><a class="dropdown-item" >Oakhurst (coming soon)</a></li>
+                            <li><a class="dropdown-item" >Joshua Tree (coming soon)</a></li>
+                            <li><a class="dropdown-item" >Moab (coming soon)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/how-it-works.html">How it Works</a>
+                    </li>
+                    
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="/tour/index.html">Tour a Zome</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarPropertyDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Properties
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarPropertyDropdown">
+                            <li><a class="dropdown-item" href="properties.html">Properties</a></li>
+                            <li><a class="dropdown-item" href="property-details.html">Property Details</a></li>
+                            <li><a class="dropdown-item" href="property-alert.html">Property Alert</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarLoanDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Loan
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarLoanDropdown">
+                            <li><a class="dropdown-item" href="business-loan.html">Business Loan</a></li>
+                            <li><a class="dropdown-item" href="business-loan-details.html">Business Loan Details</a>
+                            </li>
+                            <li><a class="dropdown-item" href="loan-application.html">Loan Application</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="list-your-property.html">List your property</a>
+                    </li> -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+                            <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="affiliate-program.html">Affiliate Program</a></li>
+                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="blog-two.html">Blog Two</a></li>
+                            <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
+                            <li><a class="dropdown-item" href="career.html">Career</a></li>
+                            <li><a class="dropdown-item" href="career-details.html">Career Details</a></li>
+                            <li><a class="dropdown-item" href="how-it-works.html">How It Works</a></li>
+                            <li><a class="dropdown-item" href="key-risks.html">Key Risks</a></li>
+                            <li><a class="dropdown-item" href="loyality-program.html">Loyality Program</a></li>
+                            <li><a class="dropdown-item" href="terms-conditions.html">Terms Conditions</a></li>
+                            <li><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="cookie-policy.html">Cookie Policy</a></li>
+                            <li><a class="dropdown-item" href="support.html">Support</a></li>
+                            <li><a class="dropdown-item" href="404.html">Error</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <!-- <li class="nav-item d-block d-sm-none">
+                        <a href="login.html" class="nav-link">Log In</a>
+                    </li>
+                    <li class="nav-item d-block d-sm-none">
+                        <a href="/tour/index.html" class="button button--effect button--last">Tour a Zome <i
+                                class="fa-solid fa-arrow-right-long"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- ==== #header end ==== -->
+    <!-- ==== details section start ==== -->
+<div class="property__details__banner bg__img clear__top"
+    data-background="/assets/images/properties/lewis/lewis2.webp">
+</div>
+<section class="p__details faq section__space__bottom">
+    <div class="container">
+        <div class="p__details__area">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="p__details__content">
+                        <a href="#gallery" class="button button--effect button--secondary"><i
+                                class="fa-solid fa-images"></i> Browse Gallery</a>
+                        <div class="intro">
+                            <h3>Lewis - Sedona</h3>
+                            <p><i class="fa-solid fa-location-dot"></i> 48 Lewis Way, Sedona, Arizona
+                            </p>
+                        </div>
+                        <div class="group__one">
+                            <h4>Investment Overview</h4>
+                            <p>Seeking $1.25MM divided in two equal traunches: A fixed debt investment in first
+                                position, and an equity investment in second.</p>
+                        </div>
+                        <div class="terms">
+    <h5>Equity Investment: Raising $625,000</h5>
+    <div class="terms__wrapper">
+        <div class="terms__single">
+            <img src="/assets/images/icons/investors.png" alt="Maximum Loan" />
+            <p>Target Hold Time</p>
+            <h5 class="neutral-bottom">5 Years</h5>
+        </div>
+        <div class="terms__single">
+            <img src="/assets/images/icons/project.png" alt="Annual" />
+            <p>Cash on Cash</p>
+            <h5 class="neutral-bottom">12.3%</h5>
+        </div>
+        <div class="terms__single">
+            <img src="/assets/images/icons/loan.png" alt="Charge" />
+            <p>5 Year IRR</p>
+            <h5 class="neutral-bottom">26.3%</h5>
+        </div>
+        <div class="terms__single">
+            <img src="/assets/images/home.png" alt="Charge" />
+            <p>Title Security</p>
+            <h5 class="neutral-bottom">2nd Position</h5>
+        </div>
+
+
+    </div>
+</div>
+                        <div class="terms">
+    <h5>Fixed Debt Investment: Raising $625,000</h5>
+    <div class="terms__wrapper">
+        <div class="terms__single">
+            <img src="/assets/images/icons/investors.png" alt="Maximum Loan" />
+            <p>Loan Term</p>
+            <h5 class="neutral-bottom">$12 Months</h5>
+        </div>
+        <div class="terms__single">
+            <img src="/assets/images/icons/project.png" alt="Annual" />
+            <p>Return</p>
+            <h5 class="neutral-bottom">$8%</h5>
+        </div>
+
+        <div class="terms__single">
+            <img src="/assets/images/icons/investor.png" alt="Maximum Loan" />
+            <p>Options to renew</p>
+            <h5 class="neutral-bottom">6-month</h5>
+        </div>
+        <div class="terms__single">
+            <img src="/assets/images/icons/secure.png" alt="Charge" />
+            <p>Title Security</p>
+            <h5 class="neutral-bottom">1st Position</h5>
+        </div>
+    </div>
+</div>
+
+                        <div class="group__two">
+                            <h5>Investment Highlights:</h5>
+                            <ul>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />High Debt Service
+                                    Coverage Ration (”DSCR”) – Projected 2.3 DSCR on net income indicates a strong
+                                    financial health, and lower probability of default.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />1st Position Notes –
+                                    Private Lenders will always maintain a 1st position lien on all properties. The
+                                    highest level of title/lender’s insurance will be purchased on each property.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Dedicated in-house
+                                    property management team.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Concentration: We know
+                                    the Sedona market intimately, and are building out multiple vacation rentals in the
+                                    city. This allows us to share infrastructure, cross-market, and deliver a great host
+                                    experience.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Extensive deal
+                                    analysis and structuring experience. Members of our team have bought and sold more
+                                    then $100MM in residential and commercial properties over the last 15 years.</li>
+                            </ul>
+                        </div>
+
+                        <div class="group__one">
+                            <h4>Property Description</h4>
+                            <p>Secluded private estate lot with no HOA oversight, end of the road privacy and hillside red rock views.</p>
+                            <p>Nearby homes are top tier and the National Forest trails accessed from Broken Arrow area with thousands of acres of unspoiled wilderness are just blocks away. </p>
+                        </div>
+                        <div class="group__two">
+                            <h5>Property Highlights:</h5>
+                            <ul>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />1 acre with
+                                    City sewer, natural gas, electricity and water available</p>
+                                </li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Walking distance to National Forest</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Unblockable panoramic views for your custom home to see all the surrounding red rock formations including of Elephant Rock, Twin Buttes, and Cathedral Rock. </li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />Guest home permitted,
+                                    which allows for room to build two STR units.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />No HOA which removes
+                                    risk of STR limitations being imposed in the futue.</li>
+                                <li><img src="/assets/images/check_green.png" alt="check_green" />High-end neighborhood.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="group__one">
+                            <div class="map__wrapper">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.3714213107182!2d-111.76282448710435!3d34.84689357275495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da41d4b383103%3A0xcf28fece5395c200!2s48%20Lewis%20Way%2C%20Sedona%2C%20AZ%2086336!5e0!3m2!1sen!2sus!4v1678479612321!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <a href="https://earth.google.com/web/search/48+Lewis+Way,+Sedona,/@34.84704233,-111.76016806,1296.73217806a,315.38498814d,35y,-71.48502024h,60t,0r/data=Cn8aVRJPCiUweDg3MmRhNDFkNGIzODMxMDM6MHhjZjI4ZmVjZTUzOTVjMjAwGYqYbQJnbEFAIVD-Sden8FvAKhQ0OCBMZXdpcyBXYXksIFNlZG9uYRgCIAEiJgokCaJPeE3LbkFAEZbgRuTKakFAGZjo63LW71vAISOvsOk48lvAKAI"
+                                class="button button--secondary button--effect" target="_blank">GOOGLE EARTH TOUR</a>
+                        </div>
+                        <div class="group__one">
+                            <h4>Development Overview</h4>
+                            <p>Zomes Development is in contract on the land, and has contracted with <a
+                                    href="http://zomes.com" target="_blank">Shell Dwellings, LLC</a> to be build a 1
+                                bedroom Zome (700 sqft), and 2
+                                bedroom Zome (1000 sqft).</p>
+                            <p>Construction is set to begin mid April, and be completed by mid July.</p>
+                        </div>
+                        <div class="group__two">
+    <h5>Development Highlights:</h5>
+    <ul>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />The two units will
+            sleep 4 and 6 guests respectively.</p>
+        </li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />Dual-zone hot tub and
+            lap pool for each unit.</p>
+        </li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />Big investment in
+            outdoor living room and dining room useable for four seasons.</li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />Smart glass, HVAC
+            units, and Radiant floor heating for a comfortable stay in all weather.</li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />Site layout design
+            ensure each unit has visual and sound privacy, but can also be rented together for
+            larger groups.</li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />Modular construction
+            means units will go up fast with no risk of material or labor cost over run.</li>
+        <li><img src="/assets/images/check_green.png" alt="check_green" />High end finishes and
+            furnishing<a href="/tour/indx.html" target="_blank">(Take a tour)</a></li>.
+    </ul>
+</div>
+
+
+                        <div class="group__two">
+                            <div class="table">
+                                <img src="/assets/documents/lewis/sourcesanduses.png" alt="sources and uses" />
+                            </div>
+                            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpiHCN1544oVaKINUIDAELVldSpTaiplyJc7SbKZmt2NghLWt0FQRTJIb2-leULJgaz1cuMTuTN-lu/pubhtml?gid=1219232969&single=true"
+                                class="button button--secondary" target="_blank">FINANCIAL MODEL<i
+                                    class="fa-solid fa-download"></i></a>
+                        </div>
+                        <div class="faq__group">
+    <h5 class="atr">Frequently asked questions</h5>
+    <div class="accordion" id="accordionExampleFund">
+        <div class="accordion-item content__space">
+            <h5 class="accordion-header" id="headingFundOne">
+                <span class="icon_box">
+                    <img src="/assets/images/icons/message.png" alt="Fund" />
+                </span>
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFundOne" aria-expanded="true" aria-controls="collapseFundOne">
+                    What is Zomes?
+                </button>
+            </h5>
+            <div id="collapseFundOne" class="accordion-collapse collapse show" aria-labelledby="headingFundOne"
+                data-bs-parent="#accordionExampleFund">
+                <div class="accordion-body">
+                    <p>Zomes are modular homes built in Petaluma, CA and assembled on site. They are fully permitted as
+                        traditional buildings, built on slab on grade. Zomes are engineered to meet all structural,
+                        energy and zoning regulations. To learn more visist <a href="http//zomes.com"
+                            target="_blank">Zomes.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item content__space">
+            <h5 class="accordion-header" id="headingFundTwo">
+                <span class="icon_box">
+                    <img src="/assets/images/icons/message.png" alt="Fund" />
+                </span>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFundTwo" aria-expanded="false" aria-controls="collapseFundTwo">
+                    What are the benefits of investing via Zomes?
+                </button>
+            </h5>
+            <div id="collapseFundTwo" class="accordion-collapse collapse" aria-labelledby="headingFundTwo"
+                data-bs-parent="#accordionExampleFund">
+                <div class="accordion-body">
+                    <p>combined with a handful of model sentence structures, to generate
+                        Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore
+                        always free
+                        from
+                        repetition, injected humour, or</p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item content__space">
+            <h5 class="accordion-header" id="headingFundThree">
+                <span class="icon_box">
+                    <img src="/assets/images/icons/message.png" alt="Fund" />
+                </span>
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFundThree" aria-expanded="false" aria-controls="collapseFundThree">
+                    What makes Zomes different?
+                </button>
+            </h5>
+            <div id="collapseFundThree" class="accordion-collapse collapse" aria-labelledby="headingFundThree"
+                data-bs-parent="#accordionExampleFund">
+                <div class="accordion-body">
+                    <p>combined with a handful of model sentence structures, to generate
+                        Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore
+                        always free
+                        from
+                        repetition, injected humour, or</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="p__details__sidebar">
+                        <!-- <div class="intro">
+                            <div class="countdown__wrapper">
+                                <p class="secondary"><i class="fa-solid fa-clock"></i> Time to Close
+                                </p>
+                                <div class="countdown">
+                                    <h5>
+                                        <span class="days">00</span><span class="ref">d</span>
+                                        <span class="seperator">:</span>
+                                    </h5>
+                                    <h5>
+                                        <span class="hours"> 00</span><span class="ref">h</span>
+                                        <span class="seperator">:</span>
+                                    </h5>
+                                    <h5>
+                                        <span class="minutes">00</span><span class="ref">m</span>
+                                        <span class="seperator"></span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <h5>Equity Position: <span>$625,000</span></h5>
+                            <div class="progress__type progress__type--two">
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:0%" role="progressbar" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="project__info">
+                                    <p class="project__has"><span class="project__has__investors">0
+                                            Investor(s)</span> | <span class="project__has__investors__amount"><i
+                                                class="fa-solid fa-dollar-sign"></i>0</span></p>
+                                    <p class="project__goal">
+                                        <i class="fa-solid fa-dollar-sign"></i> 625,000 Goal
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group brin">
+                            <div class="acus__content">
+                                <form action="#" method="post">
+                                    <div class="capital">
+                                        <p>Preferred Return</p>
+                                        <h5>10%</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>General Partnership Waterfall</p>
+                                        <h5>25%</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>Target 5-Year IRR</p>
+                                        <h5>25.7%</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>Target Cash on Cash</p>
+                                        <h5>12.1%</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>Hold Time</p>
+                                        <h5>4-5 Years</h5>
+                                    </div>
+                                    <div class="item__security">
+                                        <div class="icon__box">
+                                            <img src="/assets/images/home.png" alt="Security" />
+                                        </div>
+                                        <div class="item__security__content">
+                                            <p class="secondary">Security</p>
+                                            <h6>2nd Position on Title</h6>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="intro" style="margin-top:30px;">
+                            <div class="countdown__wrapper">
+                                <p class="secondary"><i class="fa-solid fa-clock"></i> Time to Close
+                                </p>
+                                <div class="countdown">
+                                    <h5>
+                                        <span class="days">00</span><span class="ref">d</span>
+                                        <span class="seperator">:</span>
+                                    </h5>
+                                    <h5>
+                                        <span class="hours"> 00</span><span class="ref">h</span>
+                                        <span class="seperator">:</span>
+                                    </h5>
+                                    <h5>
+                                        <span class="minutes">00</span><span class="ref">m</span>
+                                        <span class="seperator"></span>
+                                    </h5>
+                                </div>
+                            </div>
+                            <h5>Debt Position: <span>$625,000</span></h5>
+                            <div class="progress__type progress__type--two">
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:100%" role="progressbar" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="project__info">
+                                    <p class="project__has"><span class="project__has__investors">1
+                                            Investor(s)</span> | <span class="project__has__investors__amount"><i
+                                                class="fa-solid fa-dollar-sign"></i>625,000</span></p>
+                                    <p class="project__goal">
+                                        <i class="fa-solid fa-dollar-sign"></i> 625,000 Goal
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group brin">
+                            <div class="acus__content">
+                                <form action="#" method="post">
+                                    <div class="capital">
+                                        <p>Annual Return</p>
+                                        <h5>8%</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>Term</p>
+                                        <h5>12 Months</h5>
+                                    </div>
+                                    <div class="capital">
+                                        <p>Options to renew for 3 months</p>
+                                        <h5>2</h5>
+                                    </div>
+                                    <div class="item__security">
+                                        <div class="icon__box">
+                                            <img src="/assets/images/home.png" alt="Security" />
+                                        </div>
+                                        <div class="item__security__content">
+                                            <p class="secondary">Security</p>
+                                            <h6>1st Position on Title</h6>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div> -->
+                        <div class="group alt__brin">
+                            <h5>Key Dates <i class="fa-solid fa-calendar" style="color:#44a06c;"></i></h5>
+                            <hr />
+                            <div class="singl__wrapper">
+                                <div class="singl">
+                                    <img src="/assets/images/check_green_done.png" alt="check_green" />
+                                    <div>
+                                        <p>30-Nov-2022</p>
+                                        <a>Offer Accepted</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green_done.png" alt="check_green" />
+                                    <div>
+                                        <p>11-March-2023</p>
+                                        <a>Permits Submitted</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green.png" alt="check_green" />
+                                    <div>
+                                        <p>11-April-2023</p>
+                                        <a>Permit Approval</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green.png" alt="check_green" />
+                                    <div>
+                                        <p>15-April-2023</p>
+                                        <a>Property Close</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green.png" alt="check_green" />
+                                    <div>
+                                        <p>20-April-2023</p>
+                                        <a>Break Ground</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green.png" alt="check_green" />
+                                    <div>
+                                        <p>20-July-2023</p>
+                                        <a>Certificate of Occupancy</a>
+                                    </div>
+                                </div>
+                                <div class="singl">
+                                    <img src="/assets/images/check_green.png" alt="check_green" />
+                                    <div>
+                                        <p>1-Jan-2024</p>
+                                        <a>Short Term Rentals Stabilized</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group alt__brini">
+                            <h5>Reports</h5>
+                            <hr />
+                            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpiHCN1544oVaKINUIDAELVldSpTaiplyJc7SbKZmt2NghLWt0FQRTJIb2-leULJgaz1cuMTuTN-lu/pubhtml?gid=1219232969&single=true"
+                                class="button" target="_blank">FINANCIAL MODEL<i class="fa-solid fa-download"></i></a>
+                            <p>Financial model with Cash Flow Scenarios, Sources & Uses.</p>
+                            <a href="https://www.dropbox.com/s/2jgztetzbyic49t/23-003_230227_PS_Arch-C_001.pdf?dl=0"
+                                class="button" target="_blank">PERMIT SET<i class="fa-solid fa-download"></i></a>
+                            <p>Full set of permits submitted to the city of Sedona</p>
+                            <a href="/assets/documents/shared/SedonaSTRReport.pdf" class="button" target="_blank">STR
+    RESEARCH<i class="fa-solid fa-download"></i></a>
+<p>Rate and occupancy research for Sedona market. Third party, commissioned by Zomes.</p>
+
+<a href="/assets/documents/shared/SedonaCustomerDevelopment.pdf" class="button"
+    target="_blank">CUSTOMER DEVELOPMENT REPORT<i class="fa-solid fa-download"></i></a>
+<p>Third party report commissioned by Zomes on the profile of a typical short term renter in
+    Sedona</p>
+<a href="/assets/documents/shared/SedonaOneBedroomCompetitiveAnalysis.pdf" class="button"
+    target="_blank">COMPETITIVE ANALYSIS<i class="fa-solid fa-download"></i></a>
+<p>Multi-factor analysis of competing Sedona short term rentals.</p>
+<a href="/assets/documents/shared/SedonaAirDNAAnalysis.pdf" class="button"
+    target="_blank">SEDONA AIRDNA ANALYSIS<i class="fa-solid fa-download"></i></a>
+<p>Raw data and charts from AirDna Sedona</p>
+<a href="/assets/documents/shared/SedonaAverageDailyRateByTier.csv" class="button"
+    target="_blank">MONTHLY ADR DATA<i class="fa-solid fa-download"></i></a>
+<p>Monthly Raw Data for 1 Bedrooms in Sedona broken down by Tier</p>
+<a href="/assets/documents/shared/ZomesCatalogue.pdf" class="button" target="_blank">ZOMES
+    CATALLOGUE<i class="fa-solid fa-download"></i></a>
+<p>2023 Product Catalgue for Zomes</p>
+
+                            <a href="https://earth.google.com/web/search/48+Lewis+Way,+Sedona,/@34.84704233,-111.76016806,1296.73217806a,315.38498814d,35y,-71.48502024h,60t,0r/data=Cn8aVRJPCiUweDg3MmRhNDFkNGIzODMxMDM6MHhjZjI4ZmVjZTUzOTVjMjAwGYqYbQJnbEFAIVD-Sden8FvAKhQ0OCBMZXdpcyBXYXksIFNlZG9uYRgCIAEiJgokCaJPeE3LbkFAEZbgRuTKakFAGZjo63LW71vAISOvsOk48lvAKAI"
+                                class="button" target="_blank">GOOGLE EARTH TOUR<i class="fa-solid fa-download"></i></a>
+                            <p>Google Earth Tour</p>
+                        </div>
+
+                        <div class="group brin__last">
+    <h5 class="neutral-top">Key Investment Risks</h5>
+    <hr />
+    <p>We have a limited operating history. As a result, an investment in one of our properties
+        entails more risk than an
+        investment in a company with a substantial operating history.</p>
+    <p>In addition, our ability to successfully operate our business and implement our operating
+        policies and investment strategy depends
+        on many factors, including:</p>
+    <ul>
+        <li>- Our ability to obtain the additional capital</li>
+        <li>- Our ability to effectively manage renovation, maintenance, marketing and other
+            operating costs for our properties</li>
+        <li>- Economic conditions in our markets, including changes in employment and household
+            earnings and expenses, as well as the condition of the financial and real estate
+            markets and the economy, in general</li>
+        <li>- Our ability to maintain high occupancy rates and target rent levels</li>
+        <li>- Costs that are beyond our control, including title litigation, litigation with
+            guests, legal compliance, real estate taxes, HOA fees and insurance;</li>
+        <li>- Judicial and regulatory developments affecting landlord-guest relations that may
+            affect or delay our ability increase rental rates</li>
+        <li>- Reversal of population, employment or homeownership trends in our markets</li>
+        <li>- Interest rate levels and volatility, such as the accessibility of short-term and
+            long-term financing on desirable terms</li>
+    </ul>
+
+</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==== #details section end ==== -->
+<section class="wow fadeInUp">
+    <div class="container">
+        <div class="table">
+            <img src="/assets/documents/lewis/onepager.png" alt="onepager" />
+        </div>
+        <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpiHCN1544oVaKINUIDAELVldSpTaiplyJc7SbKZmt2NghLWt0FQRTJIb2-leULJgaz1cuMTuTN-lu/pubhtml?gid=1219232969&single=true"
+            class="button button--secondary" target="_blank">FINANCIAL MODEL<i class="fa-solid fa-download"></i></a>
+    </div>
+</section>
+
+<!-- ==== property gallery two section start ==== -->
+<section class="p__gallery wow fadeInUp" id="gallery">
+    <div class="container">
+        <hr class="divider" />
+        <div class="p__gallery__area section__space">
+            <div class="title__with__cta">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-8">
+                        <h2>Property Gallery</h2>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-start text-lg-end">
+                            <a href="/locations/sedona.html" class="button button--secondary button--effect">More About
+                                Sedona</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p__gallery__single">
+                <!-- <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis1.jpg'><img
+                            src='/assets/images/properties/lewis/lewis1.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis2.jpg'><img
+                            src='/assets/images/properties/lewis/lewis2.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis3.jpg'><img
+                            src='/assets/images/properties/lewis/lewis3.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis4.jpg'><img
+                            src='/assets/images/properties/lewis/lewis4.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis5.jpg'><img
+                            src='/assets/images/properties/lewis/lewis5.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis6.jpg'><img
+                            src='/assets/images/properties/lewis/lewis6.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis7.jpg'><img
+                            src='/assets/images/properties/lewis/lewis7.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis8.jpg'><img
+                            src='/assets/images/properties/lewis/lewis8.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis9.jpg'><img
+                            src='/assets/images/properties/lewis/lewis9.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis10.jpg'><img
+                            src='/assets/images/properties/lewis/lewis10.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis11.jpg'><img
+                            src='/assets/images/properties/lewis/lewis11.jpg' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis12.jpg'><img
+                            src='/assets/images/properties/lewis/lewis12.jpg' alt='Property Image' /></a></div> -->
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis1.webp'><img
+                            src='/assets/images/properties/lewis/lewis1.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis2.webp'><img
+                            src='/assets/images/properties/lewis/lewis2.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis3.webp'><img
+                            src='/assets/images/properties/lewis/lewis3.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis4.webp'><img
+                            src='/assets/images/properties/lewis/lewis4.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis5.webp'><img
+                            src='/assets/images/properties/lewis/lewis5.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis6.webp'><img
+                            src='/assets/images/properties/lewis/lewis6.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis7.webp'><img
+                            src='/assets/images/properties/lewis/lewis7.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis8.webp'><img
+                            src='/assets/images/properties/lewis/lewis8.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis9.webp'><img
+                            src='/assets/images/properties/lewis/lewis9.webp' alt='Property Image' /></a></div>
+                <!-- <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis10.webp'><img
+                            src='/assets/images/properties/lewis/lewis10.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis11.webp'><img
+                            src='/assets/images/properties/lewis/lewis11.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis12.webp'><img
+                            src='/assets/images/properties/lewis/lewis12.webp' alt='Property Image' /></a></div> -->
+                <!-- <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis13.webp'><img
+                            src='/assets/images/properties/lewis/lewis13.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis14.webp'><img
+                            src='/assets/images/properties/lewis/lewis14.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis15.webp'><img
+                            src='/assets/images/properties/lewis/lewis15.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis16.webp'><img
+                            src='/assets/images/properties/lewis/lewis16.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis17.webp'><img
+                            src='/assets/images/properties/lewis/lewis17.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis18.webp'><img
+                            src='/assets/images/properties/lewis/lewis18.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis19.webp'><img
+                            src='/assets/images/properties/lewis/lewis19.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis20.webp'><img
+                            src='/assets/images/properties/lewis/lewis20.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis21.webp'><img
+                            src='/assets/images/properties/lewis/lewis21.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis22.webp'><img
+                            src='/assets/images/properties/lewis/lewis22.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis23.webp'><img
+                            src='/assets/images/properties/lewis/lewis23.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis24.webp'><img
+                            src='/assets/images/properties/lewis/lewis24.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis25.webp'><img
+                            src='/assets/images/properties/lewis/lewis25.webp' alt='Property Image' /></a></div>
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+                        href='/assets/images/properties/lewis/lewis26.webp'><img
+                            src='/assets/images/properties/lewis/lewis26.webp' alt='Property Image' /></a></div> -->
+                <div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/floorplan1.png'><img
+        src='/assets/images/properties/general/floorplan1.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/floorplan2.png'><img
+        src='/assets/images/properties/general/floorplan2.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior1.jpg'><img
+        src='/assets/images/properties/general/interior1.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior2.jpg'><img
+        src='/assets/images/properties/general/interior2.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior3.jpg'><img
+        src='/assets/images/properties/general/interior3.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior4.jpg'><img
+        src='/assets/images/properties/general/interior4.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior5.jpg'><img
+        src='/assets/images/properties/general/interior5.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior6.jpg'><img
+        src='/assets/images/properties/general/interior6.jpg' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior1.png'><img
+        src='/assets/images/properties/general/interior1.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior2.png'><img
+        src='/assets/images/properties/general/interior2.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior3.png'><img
+        src='/assets/images/properties/general/interior3.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior4.png'><img
+        src='/assets/images/properties/general/interior4.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior5.png'><img
+        src='/assets/images/properties/general/interior5.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior6.png'><img
+        src='/assets/images/properties/general/interior6.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior7.png'><img
+        src='/assets/images/properties/general/interior7.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior8.png'><img
+        src='/assets/images/properties/general/interior8.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior9.png'><img
+        src='/assets/images/properties/general/interior9.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior10.png'><img
+        src='/assets/images/properties/general/interior10.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior11.png'><img
+        src='/assets/images/properties/general/interior11.png' alt='Property Image' /></a></div>
+<div class='col-md-6 col-lg-4 gallery__single__two'><a
+    href='/assets/images/properties/general/interior12.png'><img
+        src='/assets/images/properties/general/interior12.png' alt='Property Image' /></a></div>
+
+
+
+
+
+
+            </div>
+            <div class="cta__btn">
+                <a href="/locations/sedona.html" class="button button--secondary button--effect">More About Sedona</a>
+                <a href="/tour/index.html" class="button button--secondary button--effect" target="_blank">Tour a
+                    Zome</a>
+                <a href="http://zomes.com" class="button button--secondary button--effect" target="_blank">Zome Product
+                    Website</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ==== property gallery two section end ==== -->
+
+<!-- ==== all properties in grid section start ==== -->
+<!-- <section class="properties__grid section__space">
+        <div class="container">
+            <div class="properties__grid__area wow fadeInUp">
+                <div class="title__with__cta">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-8">
+                            <h2>Browse Similar Properties</h2>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="text-start text-lg-end">
+                                <a href="properties.html" class="button button--secondary button--effect">Browse All
+                                    Properties</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="property__grid__wrapper">
+                    <div class="row">
+                        <div class="col-md-6 col-xl-4">
+                            <div class="property__grid__single column__space--secondary">
+                                <div class="img__effect">
+                                    <a href="property-details.html">
+                                        <img src="/assets/images/property/grid-one.jpg" alt="Property" />
+                                    </a>
+                                </div>
+                                <div class="property__grid__single__inner">
+                                    <h4>Los Angeles</h4>
+                                    <p class="sub__info"><i class="fa-solid fa-location-dot"></i> 8706 Herrick Ave, Los
+                                        Angeles</p>
+                                    <div class="progress__type">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="project__has"><span class="project__has__investors">159
+                                                Investors</span> |
+                                            <span class="project__has__investors__amount"><i
+                                                    class="fa-solid fa-dollar-sign"></i> 1,94,196</span> <span
+                                                class="project__has__investors__percent">(64.73%)</span>
+                                        </p>
+                                    </div>
+                                    <div class="item__info">
+                                        <div class="item__info__single">
+                                            <p>Annual Return</p>
+                                            <h6>7.5% + 2%</h6>
+                                        </div>
+                                        <div class="item__info__single">
+                                            <p>Property Type</p>
+                                            <h6>Commercial</h6>
+                                        </div>
+                                    </div>
+                                    <div class="invest__cta__wrapper">
+                                        <div class="countdown__wrapper">
+                                            <p class="secondary"><i class="fa-solid fa-clock"></i> Left to invest</p>
+                                            <div class="countdown">
+                                                <h5>
+                                                    <span class="days">00</span><span class="ref">d</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="hours"> 00</span><span class="ref">h</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="minutes">00</span><span class="ref">m</span>
+                                                    <span class="seperator"></span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="invest__cta">
+                                            <a href="property-details.html" class="button button--effect">
+                                                Invest Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="property__grid__single column__space--secondary">
+                                <div class="img__effect">
+                                    <a href="property-details.html">
+                                        <img src="/assets/images/property/grid-two.jpg" alt="Property" />
+                                    </a>
+                                </div>
+                                <div class="property__grid__single__inner">
+                                    <h4>San Francisco, CA</h4>
+                                    <p class="sub__info"><i class="fa-solid fa-location-dot"></i> 3335 21 St, San
+                                        Francisco</p>
+                                    <div class="progress__type">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="project__has"><span class="project__has__investors">159
+                                                Investors</span> |
+                                            <span class="project__has__investors__amount"><i
+                                                    class="fa-solid fa-dollar-sign"></i> 1,94,196</span> <span
+                                                class="project__has__investors__percent">(64.73%)</span>
+                                        </p>
+                                    </div>
+                                    <div class="item__info">
+                                        <div class="item__info__single">
+                                            <p>Annual Return</p>
+                                            <h6>7.5% + 2%</h6>
+                                        </div>
+                                        <div class="item__info__single">
+                                            <p>Property Type</p>
+                                            <h6>Commercial</h6>
+                                        </div>
+                                    </div>
+                                    <div class="invest__cta__wrapper">
+                                        <div class="countdown__wrapper">
+                                            <p class="secondary"><i class="fa-solid fa-clock"></i> Left to invest</p>
+                                            <div class="countdown">
+                                                <h5>
+                                                    <span class="days">00</span><span class="ref">d</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="hours"> 00</span><span class="ref">h</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="minutes">00</span><span class="ref">m</span>
+                                                    <span class="seperator"></span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="invest__cta">
+                                            <a href="property-details.html" class="button button--effect">
+                                                Invest Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4">
+                            <div class="property__grid__single">
+                                <div class="img__effect">
+                                    <a href="property-details.html">
+                                        <img src="/assets/images/property/grid-three.jpg" alt="Property" />
+                                    </a>
+                                </div>
+                                <div class="property__grid__single__inner">
+                                    <h4>San Diego</h4>
+                                    <p class="sub__info"><i class="fa-solid fa-location-dot"></i> 356 La Jolla, San
+                                        Diego</p>
+                                    <div class="progress__type">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="25"
+                                                aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p class="project__has"><span class="project__has__investors">159
+                                                Investors</span> |
+                                            <span class="project__has__investors__amount"><i
+                                                    class="fa-solid fa-dollar-sign"></i> 1,94,196</span> <span
+                                                class="project__has__investors__percent">(64.73%)</span>
+                                        </p>
+                                    </div>
+                                    <div class="item__info">
+                                        <div class="item__info__single">
+                                            <p>Annual Return</p>
+                                            <h6>7.5% + 2%</h6>
+                                        </div>
+                                        <div class="item__info__single">
+                                            <p>Property Type</p>
+                                            <h6>Commercial</h6>
+                                        </div>
+                                    </div>
+                                    <div class="invest__cta__wrapper">
+                                        <div class="countdown__wrapper">
+                                            <p class="secondary"><i class="fa-solid fa-clock"></i> Left to invest</p>
+                                            <div class="countdown">
+                                                <h5>
+                                                    <span class="days">00</span><span class="ref">d</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="hours"> 00</span><span class="ref">h</span>
+                                                    <span class="seperator">:</span>
+                                                </h5>
+                                                <h5>
+                                                    <span class="minutes">00</span><span class="ref">m</span>
+                                                    <span class="seperator"></span>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                        <div class="invest__cta">
+                                            <a href="property-details.html" class="button button--effect">
+                                                Invest Now
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<!-- ==== #all properties in grid section end ==== -->
+
+<!-- ==== market section start ==== -->
+<!-- <section class="market section__space over__hi">
+        <div class="container">
+            <div class="market__area">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="market__thumb thumb__rtl column__space">
+                            <img src="/assets/images/market-illustration.png" alt="Explore the Market" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-6 offset-xl-1">
+                        <div class="content">
+                            <h5 class="neutral-top">Real exposure to the real estate market</h5>
+                            <h2>You Invest. Zomes
+                                Does the Rest</h2>
+                            <p>Transparent Real Estate Investing Through Zomes.Join us and
+                                experience a smarter,better way to invest in real estate</p>
+                            <a href="properties.html" class="button button--effect">Start Exploring</a>
+                            <img src="/assets/images/arrow.png" alt="Go to" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<!-- ==== #market section end ==== -->
+    
+    <!-- ==== footer section start ==== -->
+    <footer class="footer pos__rel over__hi">
+        <div class="container">
+            <!-- <div class="footer__newsletter">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <div class="footer__newsletter__content column__space">
+                            <h3>Subscribe for updates</h3>
+                            <p>Stay on top of the latest blog posts, news and announcements</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5 offset-xxl-1">
+                        <div class="footer__newsletter__form">
+                            <form action="#" method="post">
+                                <div class="footer__newsletter__input__group">
+                                    <div class="input">
+                                        <input type="email" name="news__letter" id="newsLetterMail"
+                                            placeholder="Enter Your Email" required="required" />
+                                    </div>
+                                    <button type="submit" class="button button--effect">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="footer__area section__space">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4 col-xl-4">
+                        <div class="footer__intro">
+                            <a href="/index.html">
+                                <img src="/assets/images/logo-light.png" alt="Zomes" class="logo" />
+                            </a>
+                            <div class="footer__copyright">
+                                <p>Copyright &copy; Zomes 2023</p>
+                            </div>
+                            <!-- <p>Zomes Development provides investors an opportunity to own luxury short term rentals in popular desitnations.</p> -->
+                            <!-- <div class="social">
+                                <a href="javascript:void(0)">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="javascript:void(0)">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer__links footer__links--alt">
+                            <h5>Company</h5>
+                            <ul>
+                                <li>
+                                    <a href="/index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us.html">About Us</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="career.html">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="neutral-bottom">
+                                    <a href="affiliate-program.html">Affiliate</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer__links footer__links--alt">
+                            <h5>Invest</h5>
+                            <ul>
+                                <li>
+                                    <a href="/properties.html">Browse Properties</a>
+                                </li>
+                                <li>
+                                    <a href="/how-it-works.html">How it works</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="loan-application.html">Loan Application </a>
+                                </li>
+                                <li>
+                                    <a href="property-alert.html">Property Alerts</a>
+                                </li>
+                                <li class="neutral-bottom">
+                                    <a href="support.html">FAQs</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer__links footer__links--alt--two">
+                            <h5>Insights</h5>
+                            <ul>
+                                <li>
+                                    <a href="support.html">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="list-your-property.html">List Your Property</a>
+                                </li>
+                                <li class="neutral-bottom">
+                                    <a href="loyality-program.html">Loyality program </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-6 col-md-3 col-lg-2 col-xl-2">
+                        <div class="footer__links">
+                            <h5>Legal</h5>
+                            <ul>
+                                <li>
+                                    <a href="/privacy-policy.html">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="/terms-conditions.html">Term & Conditions</a>
+                                </li>
+                                <!-- <li>
+                                    <a href="cookie-policy.html">Cookie Policy</a>
+                                </li>
+                                <li class="neutral-bottom">
+                                    <a href="key-risks.html">Key Risks</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__credit">
+                <div class="row d-flex align-items-center">
+                    <div class="col-sm-12 order-1 order-sm-0">
+                        <div class="footer__copyright">
+                            <p>This memo is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any security. The information contained in this memo has been obtained from sources believed to be reliable, but its accuracy and completeness cannot be guaranteed. Any projections, opinions, assumptions, or estimates used are for example only and do not represent the current or future performance of the property.</p>
+                            <p>This memo is not a substitute for the thorough due diligence that should be conducted before making any investment decision. Potential investors should carefully consider the risks and uncertainties described above, as well as any other risks that may be described in any offering materials or other documents provided in connection with this investment.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-3">
+                        <div class="footer__language">
+                            <select class="language-select">
+                                <option value="english">En</option>
+                                <option value="australia">Aus</option>
+                                <option value="brazil">Bra</option>
+                                <option value="argentina">Arg</option>
+                            </select>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="footer__animation">
+            <img src="/assets/images/footer/footer__left__circle.png" alt="Circle" class="left__circle" />
+            <img src="/assets/images/footer/footer__right__circle.png" alt="Circle" class="right__circle" />
+            <img src="/assets/images/footer/footer__home___illustration.png" alt="Home" class="home__illustration" />
+        </div>
+    </footer>
+    <!-- ==== #footer section end ==== -->
+
+    <!-- Scroll To Top -->
+    <a href="javascript:void(0)" class="scrollToTop">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <!-- ==== js dependencies start ==== -->
+
+    <!-- jquery -->
+    <script src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="/assets/vendor/nice-select/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="/assets/vendor/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+    <!-- slick js -->
+    <script src="/assets/vendor/slick/js/slick.js"></script>
+    <!-- shuffle js -->
+    <script src="/assets/vendor/shuffle/shuffle.min.js"></script>
+    <!-- jquery downcount timer -->
+    <script src="/assets/vendor/downcount/jquery.downCount.js"></script>
+    <!-- waypoints js -->
+    <script src="/assets/vendor/waypoints-js/jquery.waypoints.min.js"></script>
+    <!-- counter up js -->
+    <script src="/assets/vendor/counter-js/jquery.counterup.min.js"></script>
+    <!-- apex chart js -->
+    <script src="/assets/vendor/apex-chart/apexcharts.min.js"></script>
+    <!-- wow js -->
+    <script src="/assets/vendor/wow/wow.min.js"></script>
+
+    <!-- ==== js dependencies end ==== -->
+
+    <!-- plugin js -->
+    <script src="/assets/js/plugin.js"></script>
+    <!-- main js -->
+    <script src="/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
