@@ -2894,12 +2894,12 @@
       &::before {
         content: none;
       }
-      &:nth-last-of-type(1) {
-        display: none;
-      }
-      &:nth-last-of-type(3) {
-        display: none;
-      }
+      // &:nth-last-of-type(1) {
+      //   display: none;
+      // }
+      // &:nth-last-of-type(3) {
+      //   display: none;
+      // }
     }
   }
   .item__footer {

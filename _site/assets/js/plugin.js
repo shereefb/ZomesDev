@@ -102,7 +102,7 @@
     // invest time left countdown
     if (document.querySelector(".countdown") !== null) {
       $(".countdown").downCount({
-        date: "03/13/2023 11:59:59",
+        date: "04/15/2023 11:59:59",
         offset: +10,
       });
     }

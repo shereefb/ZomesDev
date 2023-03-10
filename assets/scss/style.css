@@ -963,7 +963,6 @@ p {
   height: 10px;
   border-radius: 5px;
   background-color: #2dca73;
-  width: 64.73%;
 }
 @media only screen and (max-width: 575px) {
   .progress__type .progress-bar {
@@ -6348,12 +6347,6 @@ header {
 }
 .property__grid .item__info .item__info__single::before {
   content: none;
-}
-.property__grid .item__info .item__info__single:nth-last-of-type(1) {
-  display: none;
-}
-.property__grid .item__info .item__info__single:nth-last-of-type(3) {
-  display: none;
 }
 .property__grid .item__footer {
   display: none;
