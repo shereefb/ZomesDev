@@ -1446,7 +1446,7 @@ p {
 }
 .button:hover {
   color: #ffffff;
-  box-shadow: 0px 10px 24px 0px rgba(89, 39, 227, 0.8);
+  box-shadow: 0px 10px 24px 0px rgba(16, 3, 49, 0.8);
 }
 
 .button--secondary {
@@ -3436,9 +3436,10 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 15px;
-  padding: 20px 0px 25px;
   border-top: 1px solid #e9ecef;
   margin-top: 14px;
+  background-color: #f0f8fa;
+  padding: 15px 20px;
 }
 .property__item__content .item__info .item__info__single {
   position: relative;
@@ -6327,22 +6328,6 @@ header {
 @media only screen and (max-width: 1199px) {
   .property__grid .item__info {
     justify-content: space-around;
-  }
-}
-.property__grid .item__info::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  bottom: 0px;
-  width: 1px;
-  height: 70%;
-  background-color: #adafc9;
-}
-@media only screen and (max-width: 767px) {
-  .property__grid .item__info::before {
-    content: none;
   }
 }
 .property__grid .item__info .item__info__single::before {
