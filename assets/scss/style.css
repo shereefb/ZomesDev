@@ -1401,11 +1401,11 @@ p {
   padding: 14px 30px 16px;
   background-color: #444;
   border-radius: 10px;
-  box-shadow: 0px 4px 24px 0px rgba(89, 39, 227, 0.25);
+  box-shadow: 0px 4px 24px 0px rgba(7, 7, 7, 0.25);
   text-align: center;
   position: relative;
   overflow: hidden;
-  color: lightgray;
+  color: #f8f8f8;
 }
 @media only screen and (max-width: 767px) {
   .button {
