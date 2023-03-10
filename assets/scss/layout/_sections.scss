@@ -4685,8 +4685,9 @@
 
 // property details page styles start
 .property__details__banner {
-  height: 640px;
+  height: 740px;
   background-size: cover;
+  margin-top:0px;
   @include responsive(lg) {
     height: 300px;
   }
@@ -4698,6 +4699,7 @@
     height: 200px;
   }
 }
+
 
 .p__details {
   position: relative;
