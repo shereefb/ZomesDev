@@ -25,48 +25,9 @@ title: Property Details - Zomes Development
                             <p>Seeking $1.25MM divided in two equal traunches: A fixed debt investment in first
                                 position, and an equity investment in second.</p>
                         </div>
-                        <div class="terms">
-                            <h5>Equity Investment</h5>
-                            <div class="terms__wrapper">
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/investors.png" alt="Maximum Loan" />
-                                    <p>Target Hold Time</p>
-                                    <h5 class="neutral-bottom">5 Years</h5>
-                                </div>
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/project.png" alt="Annual" />
-                                    <p>Cash on Cash Returns</p>
-                                    <h5 class="neutral-bottom">12.1%</h5>
-                                </div>
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/loan.png" alt="Charge" />
-                                    <p>5 Year IRR</p>
-                                    <h5 class="neutral-bottom">25.7%</h5>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="terms">
-                            <h5>Fixed Debt Investment</h5>
-                            <div class="terms__wrapper">
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/investors.png" alt="Maximum Loan" />
-                                    <p>Loan Term</p>
-                                    <h5 class="neutral-bottom">12 Months</h5>
-                                </div>
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/project.png" alt="Annual" />
-                                    <p>Return</p>
-                                    <h5 class="neutral-bottom">8%</h5>
-                                </div>
-
-                                <div class="terms__single">
-                                    <img src="/assets/images/icons/investor.png" alt="Maximum Loan" />
-                                    <p>2X options to renew</p>
-                                    <h5 class="neutral-bottom">3-month</h5>
-                                </div>
-                            </div>
-                        </div>
+                        {% include equity.html raise="625,000" hold="5 Years" coc="12.1" irr="25.7"%}                        
+                        {% include debt.html raise="625,000" hold="12 Months" return="8" renew="6-month"%}                        
+                        
                         <div class="group__two">
                             <h5>Investment Highlights:</h5>
                             <ul>
@@ -132,7 +93,7 @@ title: Property Details - Zomes Development
                             <p>Construction is set to begin mid April, and be completed by mid July.</p>
                         </div>
                         {% include developmenthighlights.html %}
-                        
+
                         <div class="group__two">
                             <div class="table">
                                 <img src="/assets/documents/circle/sourcesanduses.png" alt="sources and uses" />
@@ -141,12 +102,12 @@ title: Property Details - Zomes Development
                                 class="button button--secondary" target="_blank">FINANCIAL MODEL<i
                                     class="fa-solid fa-download"></i></a>
                         </div>
-                        {% include faq.html %}                        
+                        {% include faq.html %}
                     </div>
                 </div>
                 <div class="col-lg-5">
                     <div class="p__details__sidebar">
-                        <div class="intro">
+                        <!-- <div class="intro">
                             <div class="countdown__wrapper">
                                 <p class="secondary"><i class="fa-solid fa-clock"></i> Time to Close
                                 </p>
@@ -182,15 +143,6 @@ title: Property Details - Zomes Development
                             </div>
                         </div>
                         <div class="group brin">
-                            <!-- <h5 class="neutral-top">Occupancy</h5>
-                                <div class="acus__btns">
-                                    <a href="javascript:void(0)" class="acus__btn acus__btn__active">0%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">20%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">40%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">60%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">80%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">100%</a>
-                                </div> -->
                             <div class="acus__content">
                                 <form action="#" method="post">
                                     <div class="capital">
@@ -224,9 +176,6 @@ title: Property Details - Zomes Development
                                     </div>
                                 </form>
                             </div>
-                            <!-- <p class="text-center neutral-bottom">
-                                    <a href="contact-us.html">Request a free callback</a>
-                                </p> -->
                         </div>
                         <div class="intro" style="margin-top:30px;">
                             <div class="countdown__wrapper">
@@ -264,15 +213,6 @@ title: Property Details - Zomes Development
                             </div>
                         </div>
                         <div class="group brin">
-                            <!-- <h5 class="neutral-top">Occupancy</h5>
-                                <div class="acus__btns">
-                                    <a href="javascript:void(0)" class="acus__btn acus__btn__active">0%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">20%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">40%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">60%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">80%</a>
-                                    <a href="javascript:void(0)" class="acus__btn">100%</a>
-                                </div> -->
                             <div class="acus__content">
                                 <form action="#" method="post">
                                     <div class="capital">
@@ -293,29 +233,13 @@ title: Property Details - Zomes Development
                                         </div>
                                         <div class="item__security__content">
                                             <p class="secondary">Security</p>
-                                            <h6>1s Position on Title</h6>
+                                            <h6>1st Position on Title</h6>
                                         </div>
                                     </div>
                                 </form>
                             </div>
-                            <!-- <p class="text-center neutral-bottom">
-                                    <a href="contact-us.html">Request a free callback</a>
-                                </p> -->
-                        </div>
-                        <div class="group alt__brini">
-                            <h5>Reports</h5>
-                            <hr />
-                            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpiHCN1544oVaKINUIDAELVldSpTaiplyJc7SbKZmt2NghLWt0FQRTJIb2-leULJgaz1cuMTuTN-lu/pubhtml?gid=2060357359&single=true"
-                                class="button" target="_blank">FINANCIAL MODEL<i class="fa-solid fa-download"></i></a>
-                            <p>Financial model with Cash Flow Scenarios, Sources & Uses.</p>
-                            <a href="https://www.dropbox.com/s/phbfcygw6wkrv84/23-002_230227_PS_Arch-C_001.pdf?dl=0"
-                                class="button" target="_blank">PERMIT SET<i class="fa-solid fa-download"></i></a>
-                            <p>Full set of permits submitted to the city of Sedona</p>
-                            {% include reports.html %}
-                            <a href="https://earth.google.com/web/search/266+Circle+Dr,+Sedona,+AZ+86336/@34.87401576,-111.75888988,1342.09172091a,219.17254815d,35y,-47.70221331h,60t,0r/data=CooBGmASWgolMHg4NzJkYTNlMTg0MDdlN2JkOjB4ZGQxMjc1ZjcyOGI2MzhjYhljGpe74G9BQCEJKYk2kfBbwCofMjY2IENpcmNsZSBEciwgU2Vkb25hLCBBWiA4NjMzNhgCIAEiJgokCZWMWTUQcEFAES5LcajBa0FAGQtRcs9M7lvAIQ--6W-w8FvAKAI"
-                                class="button" target="_blank">GOOGLE EARTH TOUR<i class="fa-solid fa-download"></i></a>
-                            <p>Google Earth Tour</p>
-                        </div>
+
+                        </div> -->
                         <div class="group alt__brin">
                             <h5>Key Dates <i class="fa-solid fa-calendar" style="color:#44a06c;"></i></h5>
                             <hr />
@@ -371,7 +295,22 @@ title: Property Details - Zomes Development
                                 </div>
                             </div>
                         </div>
-                       {% include risks.html %}
+                        <div class="group alt__brini">
+                            <h5>Reports</h5>
+                            <hr />
+                            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpiHCN1544oVaKINUIDAELVldSpTaiplyJc7SbKZmt2NghLWt0FQRTJIb2-leULJgaz1cuMTuTN-lu/pubhtml?gid=2060357359&single=true"
+                                class="button" target="_blank">FINANCIAL MODEL<i class="fa-solid fa-download"></i></a>
+                            <p>Financial model with Cash Flow Scenarios, Sources & Uses.</p>
+                            <a href="https://www.dropbox.com/s/phbfcygw6wkrv84/23-002_230227_PS_Arch-C_001.pdf?dl=0"
+                                class="button" target="_blank">PERMIT SET<i class="fa-solid fa-download"></i></a>
+                            <p>Full set of permits submitted to the city of Sedona</p>
+                            {% include reports.html %}
+                            <a href="https://earth.google.com/web/search/266+Circle+Dr,+Sedona,+AZ+86336/@34.87401576,-111.75888988,1342.09172091a,219.17254815d,35y,-47.70221331h,60t,0r/data=CooBGmASWgolMHg4NzJkYTNlMTg0MDdlN2JkOjB4ZGQxMjc1ZjcyOGI2MzhjYhljGpe74G9BQCEJKYk2kfBbwCofMjY2IENpcmNsZSBEciwgU2Vkb25hLCBBWiA4NjMzNhgCIAEiJgokCZWMWTUQcEFAES5LcajBa0FAGQtRcs9M7lvAIQ--6W-w8FvAKAI"
+                                class="button" target="_blank">GOOGLE EARTH TOUR<i class="fa-solid fa-download"></i></a>
+                            <p>Google Earth Tour</p>
+                        </div>
+                        
+                        {% include risks.html %}
 
 
                     </div>
@@ -507,7 +446,7 @@ title: Property Details - Zomes Development
                         href='/assets/images/properties/circle/circle26.webp'><img
                             src='/assets/images/properties/circle/circle26.webp' alt='Property Image' /></a></div>
                 {% include sharedimages.html%}
-                
+
 
 
 
