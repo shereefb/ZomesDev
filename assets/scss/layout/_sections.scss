@@ -2848,7 +2848,7 @@
   .img__effect {
     img {
       max-width: 100%;
-      max-height: 400px;
+      max-height: 220px;
       height: auto;
       @include responsive(sm) {
         max-height: 250px;
