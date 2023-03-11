@@ -54,7 +54,7 @@ plugins:
 
 circle-name: Circle
 circle-coc: 11.53
-circle-irr: 21
+circle-irr: 21.5
 circle-raise: "1,259,451"
 circle-equity: "625,000"
 circle-debt: "634,451"
@@ -65,15 +65,15 @@ circle-banner-gif: 1.jpg
 circle-address: 266 Circle Dr, Sedona, Arizona
 circle-investors: 1
 circle-investor-amount: 625,000
-circle-investor-percentage: 48
+circle-investor-percentage: 49.6
 
 
 cathedral-name: Cathedral
-cathedral-coc: 11.53
-cathedral-irr: 21
-cathedral-raise: "1,259,451"
+cathedral-coc: 11.38
+cathedral-irr: 21.2
+cathedral-raise: "1,268,997"
 cathedral-equity: "625,000"
-cathedral-debt: "634,451"
+cathedral-debt: "643,997"
 cathedral-hold: 12 Months
 cathedral-return: 10 
 cathedral-renew: 6-months
@@ -81,21 +81,21 @@ cathedral-banner-gif: 1.jpg
 cathedral-address: 175 Cathedral Rock Tr, Sedona, Arizona
 cathedral-investors: 1
 cathedral-investor-amount: 625,000
-cathedral-investor-percentage: 48
+cathedral-investor-percentage: 49.25
 
 
 lewis-name: Lewis
-lewis-coc: 11.53
-lewis-irr: 21
-lewis-raise: "1,259,451"
-lewis-equity: "625,000"
-lewis-debt: "634,451"
+lewis-coc: 11.81
+lewis-irr: 22.0
+lewis-raise: "1,241,935"
+lewis-equity: "620,937"
+lewis-debt: "620,937"
 lewis-hold: 12 Months
 lewis-return: 10 
 lewis-renew: 6-months
 lewis-banner-gif: 2.webp
 lewis-address: 48 Lewis Way, Sedona, CA
-lewis-investors: 1
+lewis-investors: 0
 lewis-investor-amount: 0
 lewis-investor-percentage: 0
 

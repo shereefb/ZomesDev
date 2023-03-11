@@ -4,18 +4,18 @@ title: Properties - Zomes Development
 ---
 
 
-    <!-- ==== banner section start ==== -->
-    <section class="banner__alt bg__img" data-background="./assets/images/banner/banner-two-bg.png">
-        <div class="container">
-            <div class="banner__alt__area">
-                <h1 class="neutral-top neutral-bottom">Browse Properties</h1>
-            </div>
+<!-- ==== banner section start ==== -->
+<section class="banner__alt bg__img" data-background="/assets/images/locations/sedona/sedona-banner.jpg">
+    <div class="container">
+        <div class="banner__alt__area">
+            <h2 class="neutral-top neutral-bottom" style="color:rgb(212, 208, 208)">Browse Properties</h2>
         </div>
-    </section>
-    <!-- ==== banner section end ==== -->
+    </div>
+</section>
+<!-- ==== banner section end ==== -->
 
-    <!-- ==== property filter start ==== -->
-    <!-- <div class="property__filter">
+<!-- ==== property filter start ==== -->
+<!-- <div class="property__filter">
         <div class="container">
             <div class="property__filter__area">
                 <div class="row d-flex align-items-center">
@@ -55,14 +55,14 @@ title: Properties - Zomes Development
             </div>
         </div>
     </div> -->
-    <!-- ==== #property filter end ==== -->
+<!-- ==== #property filter end ==== -->
 
-    <!-- ==== properties grid section start ==== -->
-    <section class="properties__filter section__space__bottom">
-        <div class="container wow fadeInUp">
-            <div class="properties__filter__wrapper">
-                <h6>Showing <span>3</span> available investments</h6>
-                <!-- <div class="grid__wrapper">
+<!-- ==== properties grid section start ==== -->
+<section class="properties__filter section__space__bottom">
+    <div class="container wow fadeInUp">
+        <div class="properties__filter__wrapper">
+            <h6>Showing <span>3</span> available investments</h6>
+            <!-- <div class="grid__wrapper">
                     <select class="grid__select">
                         <option data-display="Sort By">Sort By</option>
                         <option value="grid">Date</option>
@@ -75,257 +75,23 @@ title: Properties - Zomes Development
                         <i class="fa-solid fa-bars"></i>
                     </a>
                 </div> -->
-            </div>
-            <div class="row property__grid__area__wrapper">
+        </div>
+        <div class="row property__grid__area__wrapper">
 
-                    {% include property.html name=site.circle-name banner-gif=site.circle-banner-gif address=site.circle-address investor-percentage=site.circle-investor-percentage investors=site.circle-investors investor-amount=site.circle-investor-amount raise = site.circle-raise coc=site.circle-coc hold=site.circle-hold irr=site.circle-irr %}
-                    
-                <div class="col-xl-4 col-md-6 property__grid__area__wrapper__inner">
-                    <div class="property__list__wrapper property__grid">
-                        <div class="row d-flex align-items-center">
-                            <div class="property__grid__area__wrapper__inner__two">
-                                <div class="property__item__image column__space--secondary">
-                                    <div class="img__effect">
-                                        <a href="/properties/cathedral.html">
-                                            <img src="/assets/images/properties/cathedral/cathedral1.jpg" alt="Cathedral" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="property__grid__area__wrapper__inner__three">
-                                <div class="property__item__content">
-                                    <div class="item__head">
-                                        <div class="item__head__left">
-                                            <h4>Cathedral</h4>
-                                            <p><i class="fa-solid fa-location-dot"></i> 175 Cathedral Rock Tr, Sedona, Arizona
-                                            </p>
-                                        </div>
-                                        <!-- <div class="item__head__right">
-                                            <div class="countdown__wrapper">
-                                                <p class="secondary"><i class="fa-solid fa-clock"></i> Left to invest
-                                                </p>
-                                                <div class="countdown">
-                                                    <h5>
-                                                        <span class="days">00</span><span class="ref">d</span>
-                                                        <span class="seperator">:</span>
-                                                    </h5>
-                                                    <h5>
-                                                        <span class="hours"> 00</span><span class="ref">h</span>
-                                                        <span class="seperator">:</span>
-                                                    </h5>
-                                                    <h5>
-                                                        <span class="minutes">00</span><span class="ref">m</span>
-                                                        <span class="seperator"></span>
-                                                    </h5>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                    <div class="progress__type progress__type--two">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                          </div>                                    
-                                        <div class="project__info">
-                                            <p class="project__has"><span class="project__has__investors">1
-                                                    Investors</span> | <span class="project__has__investors__amount"><i
-                                                        class="fa-solid fa-dollar-sign"></i> 625,000</span> <span
-                                                    class="project__has__investors__percent">(50%)</span></p>
-                                            <p class="project__has">
-                                                <i class="fa-solid fa-dollar-sign"></i> 1,250,000 Goal
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="item__info">
-                                        <div class="item__info__single">
-                                            <p>Cash on Cash</p>
-                                            <h6>11.9%</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Target Hold</p>
-                                            <h6>5 Years</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Distribution</p>
-                                            <h6>Quarterly</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Target IRR</p>
-                                            <h6>25.4%</h6>
-                                        </div>
-                                        <!-- <div class="item__info__single">
-                                            <p></p>
-                                            <h6></h6>
-                                        </div> -->
-                                    </div>
-                                    <!-- <div class="item__footer"> -->
-                                        <!-- <div class="item__security">
-                                            <div class="icon__box">
-                                                <img src="/assets/images/home.png" alt="Security" />
-                                            </div>
-                                            <div class="item__security__content">
-                                                <p class="secondary">Security</p>
-                                                <h6>1st-Rank Mortgage</h6>
-                                            </div>
-                                        </div> -->
-                                        <!-- <div class="item__cta__group">
-                                            <a href="registration.html" class="button button--secondary button--effect">Investment Details</a>
-                                            <a href="property-details.html"
-                                                class="button button--secondary button--effect">Investment Details</a>
-                                        </div> -->
-                                    <!-- </div> -->
-                                    <div class="invest__cta__wrapper">
-                                        <div class="countdown__wrapper">
-                                            <p class="secondary"><i class="fa-solid fa-clock"></i> Time to Close</p>
-                                            <div class="countdown">
-                                                <h5>
-                                                    <span class="days">00</span><span class="ref">d</span>
-                                                    <span class="seperator">:</span>
-                                                </h5>
-                                                <h5>
-                                                    <span class="hours"> 00</span><span class="ref">h</span>
-                                                    <span class="seperator">:</span>
-                                                </h5>
-                                                <h5>
-                                                    <span class="minutes">00</span><span class="ref">m</span>
-                                                    <span class="seperator"></span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="invest__cta">
-                                            <a href="/properties/cathedral.html" class="button button--effect">
-                                                Investment Details
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 property__grid__area__wrapper__inner">
-                    <div class="property__list__wrapper property__grid">
-                        <div class="row d-flex align-items-center">
-                            <div class="property__grid__area__wrapper__inner__two">
-                                <div class="property__item__image column__space--secondary">
-                                    <div class="img__effect">
-                                        <a href="/properties/lewis.html">
-                                            <img src="/assets/images/properties/lewis/lewis2.webp" alt="lewis" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="property__grid__area__wrapper__inner__three">
-                                <div class="property__item__content">
-                                    <div class="item__head">
-                                        <div class="item__head__left">
-                                            <h4>Lewis</h4>
-                                            <p><i class="fa-solid fa-location-dot"></i> 48 Lewis Way, Sedona, CA
-                                            </p>
-                                        </div>
-                                        <!-- <div class="item__head__right">
-                                            <div class="countdown__wrapper">
-                                                <p class="secondary"><i class="fa-solid fa-clock"></i> Left to invest
-                                                </p>
-                                                <div class="countdown">
-                                                    <h5>
-                                                        <span class="days">00</span><span class="ref">d</span>
-                                                        <span class="seperator">:</span>
-                                                    </h5>
-                                                    <h5>
-                                                        <span class="hours"> 00</span><span class="ref">h</span>
-                                                        <span class="seperator">:</span>
-                                                    </h5>
-                                                    <h5>
-                                                        <span class="minutes">00</span><span class="ref">m</span>
-                                                        <span class="seperator"></span>
-                                                    </h5>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                    </div>
-                                    <div class="progress__type progress__type--two">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                          </div>                                    
-                                        <div class="project__info">
-                                            <p class="project__has"><span class="project__has__investors">0
-                                                    Investors</span> | <span class="project__has__investors__amount"><i
-                                                        class="fa-solid fa-dollar-sign"></i> 625,000</span> <span
-                                                    class="project__has__investors__percent">(0%)</span></p>
-                                            <p class="project__has">
-                                                <i class="fa-solid fa-dollar-sign"></i> 1,250,000 Goal
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="item__info">
-                                        <div class="item__info__single">
-                                            <p>Cash on Cash</p>
-                                            <h6>12.3%</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Target Hold</p>
-                                            <h6>5 Years</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Distribution</p>
-                                            <h6>Quarterly</h6>
-                                        </div>
-                                        <div class="item__info__single">
-                                            <p>Target IRR</p>
-                                            <h6>26.3%</h6>
-                                        </div>
-                                        <!-- <div class="item__info__single">
-                                            <p></p>
-                                            <h6></h6>
-                                        </div> -->
-                                    </div>
-                                    <!-- <div class="item__footer"> -->
-                                        <!-- <div class="item__security">
-                                            <div class="icon__box">
-                                                <img src="/assets/images/home.png" alt="Security" />
-                                            </div>
-                                            <div class="item__security__content">
-                                                <p class="secondary">Security</p>
-                                                <h6>1st-Rank Mortgage</h6>
-                                            </div>
-                                        </div> -->
-                                        <!-- <div class="item__cta__group">
-                                            <a href="registration.html" class="button button--secondary button--effect">Investment Details</a>
-                                            <a href="property-details.html"
-                                                class="button button--secondary button--effect">Investment Details</a>
-                                        </div> -->
-                                    <!-- </div> -->
-                                    <div class="invest__cta__wrapper">
-                                        <div class="countdown__wrapper">
-                                            <p class="secondary"><i class="fa-solid fa-clock"></i> Time to Close</p>
-                                            <div class="countdown">
-                                                <h5>
-                                                    <span class="days">00</span><span class="ref">d</span>
-                                                    <span class="seperator">:</span>
-                                                </h5>
-                                                <h5>
-                                                    <span class="hours"> 00</span><span class="ref">h</span>
-                                                    <span class="seperator">:</span>
-                                                </h5>
-                                                <h5>
-                                                    <span class="minutes">00</span><span class="ref">m</span>
-                                                    <span class="seperator"></span>
-                                                </h5>
-                                            </div>
-                                        </div>
-                                        <div class="invest__cta">
-                                            <a href="/properties/lewis.html" class="button button--effect">
-                                                Investment Details
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="row property__grid__area__wrapper mt-30">
+            {% include property.html name=site.circle-name banner-gif=site.circle-banner-gif address=site.circle-address
+            investor-percentage=site.circle-investor-percentage investors=site.circle-investors
+            investor-amount=site.circle-investor-amount raise = site.circle-raise coc=site.circle-coc
+            hold=site.circle-hold irr=site.circle-irr %}
+            {% include property.html name=site.cathedral-name banner-gif=site.cathedral-banner-gif
+            address=site.cathedral-address investor-percentage=site.cathedral-investor-percentage
+            investors=site.cathedral-investors investor-amount=site.cathedral-investor-amount raise =
+            site.cathedral-raise coc=site.cathedral-coc hold=site.cathedral-hold irr=site.cathedral-irr %}
+            {% include property.html name=site.lewis-name banner-gif=site.lewis-banner-gif address=site.lewis-address
+            investor-percentage=site.lewis-investor-percentage investors=site.lewis-investors
+            investor-amount=site.lewis-investor-amount raise = site.lewis-raise coc=site.lewis-coc hold=site.lewis-hold
+            irr=site.lewis-irr %}
+        </div>
+        <!-- <div class="row property__grid__area__wrapper mt-30">
                 <div class="col-xl-4 col-md-6 property__grid__area__wrapper__inner">
                     <div class="property__list__wrapper property__grid">
                         <div class="row d-flex align-items-center">
@@ -684,9 +450,9 @@ title: Properties - Zomes Development
                     </div>
                 </div>
             </div> -->
-            <!-- <div class="cta__btn">
+        <!-- <div class="cta__btn">
                 <a href="property-details.html" class="button button--effect">Load More</a>
             </div> -->
-        </div>
-    </section>
-    <!-- ==== properties grid section end ==== -->
+    </div>
+</section>
+<!-- ==== properties grid section end ==== -->
