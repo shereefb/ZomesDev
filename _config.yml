@@ -52,7 +52,7 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-circle-name: Circle
+circle-name: circle
 circle-coc: 11.53
 circle-irr: 21.5
 circle-raise: "1,259,451"
@@ -68,7 +68,7 @@ circle-investor-amount: 625,000
 circle-investor-percentage: 49.6
 
 
-cathedral-name: Cathedral
+cathedral-name: cathedral
 cathedral-coc: 11.38
 cathedral-irr: 21.2
 cathedral-raise: "1,268,997"
@@ -84,7 +84,7 @@ cathedral-investor-amount: 625,000
 cathedral-investor-percentage: 49.25
 
 
-lewis-name: Lewis
+lewis-name: lewis
 lewis-coc: 11.81
 lewis-irr: 22.0
 lewis-raise: "1,241,935"
