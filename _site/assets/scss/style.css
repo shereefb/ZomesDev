@@ -1446,7 +1446,7 @@ p {
 }
 .button:hover {
   color: #ffffff;
-  box-shadow: 0px 10px 24px 0px rgba(89, 39, 227, 0.8);
+  box-shadow: 0px 10px 24px 0px rgba(32, 29, 39, 0.8);
 }
 
 .button--secondary {
@@ -1512,7 +1512,7 @@ p {
 }
 .scrollToTop:hover {
   background-color: #444;
-  box-shadow: 0px 10px 24px 0px rgba(89, 39, 227, 0.8);
+  box-shadow: 0px 10px 24px 0px rgba(32, 29, 39, 0.8);
 }
 .scrollToTop:hover i {
   color: #ffffff;
