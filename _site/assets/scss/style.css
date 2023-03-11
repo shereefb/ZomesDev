@@ -840,6 +840,13 @@ p {
 /* ==== 
  --------- (2.3) global styles start ---------
  ==== */
+.overlay {
+  color: #11163d;
+  background-color: rgb(246, 243, 243);
+  padding: 30px;
+  border-radius: 10px;
+}
+
 .section__space {
   padding: 120px 0px;
 }
@@ -5135,13 +5142,13 @@ header {
     height: 100px;
   }
 }
-.why__invest__single h5 {
+.why__invest__single h1, .why__invest__single h2, .why__invest__single h3, .why__invest__single h4, .why__invest__single h5 {
   text-align: center;
   margin-top: 34px;
   color: #13216e;
 }
 @media only screen and (max-width: 991px) {
-  .why__invest__single h5 {
+  .why__invest__single h1, .why__invest__single h2, .why__invest__single h3, .why__invest__single h4, .why__invest__single h5 {
     margin-top: 24px;
   }
 }
