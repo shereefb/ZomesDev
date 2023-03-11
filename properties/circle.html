@@ -17,7 +17,7 @@ title: Property Details - Zomes Development
                                 class="fa-solid fa-images"></i> Browse Gallery</a>
                         <div class="intro">
                             <h3>Circle - Sedona</h3>
-                            <p><i class="fa-solid fa-location-dot"></i> 266 Circle Dr, Sedona, AZ 86336
+                            <p><i class="fa-solid fa-location-dot"></i> {{site.circle-address}}
                             </p>
                         </div>
                         <div class="group__one">
@@ -25,8 +25,8 @@ title: Property Details - Zomes Development
                             <p>Seeking $1.25MM divided in two equal traunches: A fixed debt investment in first
                                 position, and an equity investment in second.</p>
                         </div>
-                        {% include equity.html raise="625,000" hold="5 Years" coc="12.1" irr="25.7"%}                        
-                        {% include debt.html raise="625,000" hold="12 Months" return="8" renew="6-month"%}                        
+                        {% include equity.html raise=site.circle-equity hold=site.circle-hold coc=site.circle-coc irr=site.circle-irr%}                        
+                        {% include debt.html raise=site.circle-debt hold=site.circle-hold return=site.circle-return renew=site.circle-renew%}                        
                         
                         <div class="group__two">
                             <h5>Investment Highlights:</h5>
