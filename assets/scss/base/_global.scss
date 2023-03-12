@@ -2,7 +2,16 @@
  --------- (2.3) global styles start ---------
  ==== */
 
- 
+
+ .homebanner {
+  h1, h2, h3, h4, h5 {
+    color: #5e5b5b;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+  }
+ }
+
  .list {
   padding-top: 20px;
   ul li {

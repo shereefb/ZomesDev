@@ -4,10 +4,10 @@
 
 .hero {
   padding-top: 272px;
-  padding-bottom: 270px;
+  padding-bottom: 100px;
   background-color: #f4f6ff;
   background-size: contain;
-  background-position: left top 60px;
+  background-size: cover;
   @include responsive(lg) {
     padding-top: 170px;
     padding-bottom: 100px;
