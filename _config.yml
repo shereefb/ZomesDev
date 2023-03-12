@@ -60,6 +60,7 @@ circle-raise: "1,270,739"
 circle-equity: "625,000"
 circle-debt: "645,739"
 circle-hold: 12 Months
+circle-equity-hold: 5 Years
 circle-return: 10 
 circle-renew: 6-months
 circle-banner-gif: 1.jpg
@@ -76,6 +77,7 @@ cathedral-raise: "1,278,907"
 cathedral-equity: "625,000"
 cathedral-debt: "653,907"
 cathedral-hold: 12 Months
+cathedral-equity-hold: 5 Years
 cathedral-return: 10 
 cathedral-renew: 6-months
 cathedral-banner-gif: 1.jpg
@@ -92,10 +94,11 @@ lewis-raise: "1,252,209"
 lewis-equity: "602,209"
 lewis-debt: "650,000"
 lewis-hold: 12 Months
+lewis-equity-hold: 5 Years
 lewis-return: 10 
 lewis-renew: 6-months
 lewis-banner-gif: 2.webp
-lewis-address: 48 Lewis Way, Sedona, CA
+lewis-address: 48 Lewis Way, Sedona, Arizona
 lewis-investors: 0
 lewis-investor-amount: 0
 lewis-investor-percentage: 0
