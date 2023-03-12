@@ -840,6 +840,17 @@ p {
 /* ==== 
  --------- (2.3) global styles start ---------
  ==== */
+.list {
+  padding-top: 20px;
+}
+.list ul li {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
 .hotbar {
   position: absolute;
   height: 20px;
@@ -855,8 +866,9 @@ p {
 .overlay {
   color: #11163d;
   background-color: rgb(246, 243, 243);
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .graph {
@@ -902,6 +914,20 @@ p {
 @media only screen and (max-width: 991px) {
   .section__space__top {
     padding-top: 80px;
+  }
+}
+
+.section__space__top_medium {
+  padding-top: 50px;
+}
+@media only screen and (max-width: 1199px) {
+  .section__space__top_medium {
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .section__space__top_medium {
+    padding-top: 40px;
   }
 }
 
