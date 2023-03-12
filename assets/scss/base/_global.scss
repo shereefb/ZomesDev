@@ -3,6 +3,17 @@
  ==== */
 
 
+.hotbar {
+    position: absolute;
+    height: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: black;
+    color: #eee;
+    padding:10px;
+    font-size: small;
+}
 .overlay {
   color: #11163d;
   background-color: rgb(246, 243, 243);
@@ -11,8 +22,10 @@
 }
 
 .graph {
+  margin: 20px;
+  display: block;
   h5 {
-    color:#11163d;
+    color:$primary-color;
     padding-left: 50px;
   }
   img {
@@ -21,6 +34,8 @@
   .source {
     float:right;
     display: block;
+    font-size: small;
+    color: $secondary-color;
   }
 }
 // section space

@@ -840,6 +840,18 @@ p {
 /* ==== 
  --------- (2.3) global styles start ---------
  ==== */
+.hotbar {
+  position: absolute;
+  height: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: #eee;
+  padding: 10px;
+  font-size: small;
+}
+
 .overlay {
   color: #11163d;
   background-color: rgb(246, 243, 243);
@@ -847,8 +859,12 @@ p {
   border-radius: 10px;
 }
 
+.graph {
+  margin: 20px;
+  display: block;
+}
 .graph h5 {
-  color: #11163d;
+  color: #0c266c;
   padding-left: 50px;
 }
 .graph img {
@@ -857,6 +873,8 @@ p {
 .graph .source {
   float: right;
   display: block;
+  font-size: small;
+  color: #444;
 }
 
 .section__space {
@@ -1912,7 +1930,7 @@ header {
 }
 
 .navbar {
-  padding: 23px 0px;
+  padding: 31px 0px 21px 0px;
   background-color: transparent;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
