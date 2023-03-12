@@ -54,11 +54,11 @@ plugins:
 #   - vendor/ruby/
 
 circle-name: circle
-circle-coc: 11.53
-circle-irr: 21.5
-circle-raise: "1,259,451"
+circle-coc: 11.39
+circle-irr: 20.2
+circle-raise: "1,270,739"
 circle-equity: "625,000"
-circle-debt: "634,451"
+circle-debt: "645,739"
 circle-hold: 12 Months
 circle-return: 10 
 circle-renew: 6-months
@@ -70,11 +70,11 @@ circle-investor-percentage: 49.6
 
 
 cathedral-name: cathedral
-cathedral-coc: 11.38
-cathedral-irr: 21.2
-cathedral-raise: "1,268,997"
+cathedral-coc: 11.26
+cathedral-irr: 20.0
+cathedral-raise: "1,278,907"
 cathedral-equity: "625,000"
-cathedral-debt: "643,997"
+cathedral-debt: "653,907"
 cathedral-hold: 12 Months
 cathedral-return: 10 
 cathedral-renew: 6-months
@@ -86,11 +86,11 @@ cathedral-investor-percentage: 49.25
 
 
 lewis-name: lewis
-lewis-coc: 11.81
-lewis-irr: 22.0
-lewis-raise: "1,241,935"
-lewis-equity: "620,937"
-lewis-debt: "620,937"
+lewis-coc: 11.67
+lewis-irr: 20.7
+lewis-raise: "1,252,209"
+lewis-equity: "602,209"
+lewis-debt: "650,000"
 lewis-hold: 12 Months
 lewis-return: 10 
 lewis-renew: 6-months
