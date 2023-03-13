@@ -840,6 +840,11 @@ p {
 /* ==== 
  --------- (2.3) global styles start ---------
  ==== */
+.unique a {
+  color: #blue !important;
+  font-weight: bold !important;
+}
+
 .hosting {
   background-color: #34313c;
 }
