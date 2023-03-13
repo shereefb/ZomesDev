@@ -840,6 +840,13 @@ p {
 /* ==== 
  --------- (2.3) global styles start ---------
  ==== */
+.hosting {
+  background-color: #34313c;
+}
+.hosting .content h1, .hosting .content h2, .hosting .content h3, .hosting .content h4, .hosting .content h5, .hosting .content p {
+  color: #f3f3f3;
+}
+
 .homebanner h1, .homebanner h2, .homebanner h3, .homebanner h4, .homebanner h5 {
   color: #5e5b5b;
   background-color: #eee;

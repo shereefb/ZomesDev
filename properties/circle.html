@@ -5,7 +5,7 @@ title: Property Details - Zomes Development
 
 <!-- ==== details section start ==== -->
 <div class="property__details__banner bg__img clear__top"
-    data-background="/assets/images/properties/circle/circle6.jpg">
+    data-background="/assets/images/properties/circle/circle1.jpg">
 </div>
 <section class="p__details faq section__space__bottom">
     <div class="container">
@@ -28,26 +28,7 @@ title: Property Details - Zomes Development
                         {% include equity.html raise=site.circle-equity hold=site.circle-equity-hold coc=site.circle-coc irr=site.circle-irr%}                        
                         {% include debt.html raise=site.circle-debt hold=site.circle-hold return=site.circle-return renew=site.circle-renew%}                        
                         
-                        <div class="group__two">
-                            <h5>Investment Highlights:</h5>
-                            <ul>
-                                <li><img src="/assets/images/check_green.png" alt="check_green" />High Debt Service
-                                    Coverage Ration (”DSCR”) – Projected 2.3 DSCR on net income indicates a strong
-                                    financial health, and lower probability of default.</li>
-                                <li><img src="/assets/images/check_green.png" alt="check_green" />1st Position Notes –
-                                    Private Lenders will always maintain a 1st position lien on all properties. The
-                                    highest level of title/lender’s insurance will be purchased on each property.</li>
-                                <li><img src="/assets/images/check_green.png" alt="check_green" />Dedicated in-house
-                                    property management team.</li>
-                                <li><img src="/assets/images/check_green.png" alt="check_green" />Concentration: We know
-                                    the Sedona market intimately, and are building out multiple vacation rentals in the
-                                    city. This allows us to share infrastructure, cross-market, and deliver a great host
-                                    experience.</li>
-                                <li><img src="/assets/images/check_green.png" alt="check_green" />Extensive deal
-                                    analysis and structuring experience. Members of our team have bought and sold more
-                                    then $100MM in residential and commercial properties over the last 15 years.</li>
-                            </ul>
-                        </div>
+                        {% include investment-highlights.html %}
 
                         <div class="group__one">
                             <h4>Property Description</h4>
